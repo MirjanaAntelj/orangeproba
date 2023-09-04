@@ -31,7 +31,12 @@ describe('add employee', () => {
   
             cy.get(':nth-child(6) > .orangehrm-tabs-item').click()
           nesto pisati 
+<<<<<<< HEAD
          orange izmena 
+=======
+        dodajem jos nesto
+        dodajem jos teksta 
+>>>>>>> 86e8161061adacfaee913a2d8cdd1885c9f776b5
             
               })
           }); 

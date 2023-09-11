@@ -23,7 +23,7 @@ describe('add employee', () => {
           cy.url().should('contain', '/viewPersonalDetails')
       cy.get(':nth-child(2) > :nth-child(2) > .oxd-input')
           .should('be.visible').and('have.value', 'Test')
-    
+     cy.get(button)
   
         })
 
